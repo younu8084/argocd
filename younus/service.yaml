@@ -5,7 +5,7 @@ metadata:
   labels:
     app: service
 spec:
-  type: clusterIP
+  type: ClusterIP
   selector:
     app: deployment
   ports:
